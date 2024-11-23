@@ -35,32 +35,17 @@
 @media (max-width: 768px) {
   .card {
       width: calc((100% - 32px) / 2);
-      margin-right: 16px; 
+     
   }
 
-  .cardimg {
-      width: 7.5rem; 
-      height: 7.5rem;
-  }
-
-  .card p {
-      font-size: 0.875rem; 
-  }
+ 
 }
 
 @media (max-width: 390px) {
   .card {
-      width: calc(100% - 20px); 
-      margin-right: 0; 
-      margin-bottom: 20px; 
+      width: calc((100% - 32px) /1); 
+    
   }
 
-  .cardimg {
-      width: 6rem; 
-      height: 6rem;
-  }
-
-  .card p {
-      font-size: 0.8125rem; 
-  }
+  
 }

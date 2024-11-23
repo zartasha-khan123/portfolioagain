@@ -45,8 +45,10 @@ function HeroSection() {
         <span>Next.Js</span>
         <br/>
       I love the front end development.</p>
-     <div className={styles.btn}><Link href="https://www.linkedin.com/in/zartash-zartasha-9916992bb/" target='_blank'> <Button text={"Hire Me"} /></Link> {/* pass probs */}
-      <Link href="https://resume-builder-zartashimran.vercel.app" target='_blank'> <Button text={"Download Resume"}/>
+     <div className={styles.btn}><Link href="https://www.linkedin.com/in/zartash-zartasha-9916992bb/" target='_blank'>
+      <Button text={"Hire Me"} /></Link> {/* pass probs */}
+      <Link href="https://resume-builder-zartashimran.vercel.app" target='_blank' className={styles.btns}>
+       <Button text={"Download Resume"}/>
       </Link> {/* pass probs */}</div>
 
        <div className={styles.sociallogo}>

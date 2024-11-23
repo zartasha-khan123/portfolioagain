@@ -1,4 +1,4 @@
-.button{
+ .button{
     display: inline-block;
     margin: auto;
     padding:.7000rem 4rem;  
@@ -8,6 +8,8 @@
     &:hover{
         background-color: var(--logo-color);
     }
-} 
+}  
+
+
 
 

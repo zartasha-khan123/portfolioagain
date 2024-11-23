@@ -7,9 +7,9 @@
 }
 
 .testimonals h1{
-    font-size:48px;
-    line-height:48px ;
-    margin-bottom:90px ;
+    font-size:3rem;
+    line-height:3rem ;
+    margin-bottom:5.625rem ;
 
 }
 
@@ -38,11 +38,10 @@
   }
 
 
- @media (max-width:390px){
+ @media (max-width:24.375rem){
   .testimonals{
-   
-    padding:10rem 1rem 1rem 10rem;
-
+    width:100%;
+    padding:160px 16px 160px 16px;
 }
 
  }
