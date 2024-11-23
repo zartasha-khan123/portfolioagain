@@ -1,0 +1,44 @@
+.card1{
+    padding: 1.5rem 1rem;
+    background-color: var(--background-lightgrey);
+    border-radius: .75rem;
+    text-align: start;
+    margin-top: 5rem;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+
+
+    &:hover{
+        background-color:var(--logo-color);
+    }
+
+}
+
+.card1img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.card1 h1{
+    font-size: 1.4063rem;
+    line-height: 2rem;
+    margin-bottom: .9688rem;
+    
+}
+.card1 h2{
+    color:rgb(13, 175, 148);
+    font-size: 1.875rem;
+    text-decoration: underline;
+    padding-bottom: .625rem;
+
+    
+}
+.card1 p{
+  font-size: .9375rem;
+  line-height: 1.5rem;
+  margin-bottom: 0rem;
+
+}

@@ -1,0 +1,48 @@
+.testimonals{
+    width:100%;
+    text-align: center;
+    padding:154px 40px 160px 40px;
+    background-color: #3f5e5c;
+
+}
+
+.testimonals h1{
+    font-size:48px;
+    line-height:48px ;
+    margin-bottom:90px ;
+
+}
+
+.testimonals span{
+    color: var(--color-color);
+}
+
+
+.embla{
+  overflow: hidden;
+}
+
+
+.embla_container{
+  display: flex;
+}
+
+  .arrow{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 10;
+    color:var(--color-color)
+  }
+
+
+ @media (max-width:390px){
+  .testimonals{
+   
+    padding:10rem 1rem 1rem 10rem;
+
+}
+
+ }
