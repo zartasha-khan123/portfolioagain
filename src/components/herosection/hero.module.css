@@ -1,86 +1,99 @@
-.hero{
-    width:100%;
+.hero {
+    width: 100%;
     background-color: var(--background-black);
     text-align: center;
     display: flex;
     flex-direction: column;
-
 }
 
-.hero h1{
+.hero h1 {
     margin-top: 7.4688rem;
     font-size: 1.8987rem;
     line-height: 3rem;
-
 }
 
-.hero  span{
-    color:var(--logo-color)
+.hero span {
+    color: var(--logo-color);
 }
 
-.hero p{
+.hero p {
     margin-top: 1.25rem;
     margin-bottom: 2.0313rem;
 }
-.hero btn{
+
+.hero .btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:20px;
+    gap: 20px;
+    flex-wrap: wrap;
 }
-.sociallogo{
+
+.sociallogo {
     margin: auto;
     display: inline-flex;
-    padding:.6875rem 1.6875rem;
-    gap:3.125rem;
-    background-color:var(--logo-color);
+    padding: .6875rem 1.6875rem;
+    gap: 3.125rem;
+    background-color: var(--logo-color);
     justify-content: space-between;
     align-items: center;
     border-radius: 1.625rem;
     margin-top: 3.125rem;
     margin-bottom: 4.375rem;
     cursor: pointer;
-    
 
-    &:hover{
-        background-color: var(--hover-color);
-
-    }
 }
 
-.bottomdiv{
+.sociallogo:hover {
+
+    background-color: var(--hover-color);
+}
+
+.bottomdiv {
+
     width: 100%;
     background-color: var(--background-grey);
-    padding:.5rem 9.0625rem;
+    padding: .5rem 9.0625rem;
     display: flex;
-    gap:9.0625rem;
+    gap: 9.0625rem;
     justify-content: space-between;
     align-items: center;
 
 }
 
 @media (max-width: 768px) {
-    .bottomdiv{
-        padding:8px 29px;
-        gap:29px;
+
+    .hero .btn {
+        gap: 10px; 
+
+    }
+
+    .bottomdiv {
+        padding: 8px 29px;
+        gap: 29px;
     }
 
 }
 
-@media screen and (max-width: 390px) {
-    .sociallogo{
-        padding:4px 20px;
-        gap:30px;
-        
+ @media screen and (max-width: 390px)
+
+   {
+   
+    .sociallogo {
+        padding: 4px 20px;
+        gap: 30px;
     }
 
-    .bottomdiv{
-        padding:10px 20px ;
-        gap:auto;
+    .hero .btn {
+        gap: 8px; 
+    }
+
+    .bottomdiv {
+
+        padding: 10px 20px;
+        gap: auto;
         flex-wrap: wrap;
+
     }
-
-}
-
-
-
+    
+ }

@@ -1,91 +1,85 @@
-.about{
+
+  .about {
     background-color: var(--background-lightgrey);
-    width:100%;
+    width: 100%;
     padding: 10rem 3.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
-.aboutleft{
-    width:40.70%;
-   
+.aboutleft {
+    width: 40.70%;
 }
 
-.aboutleft h1{
+.aboutleft h1 {
     font-size: 3rem;
     line-height: 4.5rem;
     margin-bottom: .5rem;
 }
 
-
-
-.aboutleft p{
+.aboutleft p {
     font-size: 30px;
     line-height: 2.25rem;
     margin-bottom: 2rem;
-    color:var(--logo-color);
+    color: var(--logo-color);
 }
 
-.detailpara{
+.detailpara {
     font-size: 1.055rem;
     line-height: 1.6875rem;
     margin-top: 1.4688rem;
     margin-bottom: 2.0313rem;
-
 }
 
-.aboutright{
-  margin-right:11.875rem;
+.aboutright {
+    margin-right: 11.875rem;
 }
 
-
-
-
-
-@media (max-width: 390px) {
-    .aboutleft h1 {
-      font-size: 48;
-      line-height: 72px;
-      padding-right: 12.78px;
-
-    }
-  }
-
-
-
-  @media (max-width: 768px) {
-    .about{
+@media (max-width: 768px) {
+    .about {
         padding: 3.75rem 2.5rem 10rem 2.5rem;
         justify-content: space-between;
         align-items: center;
     }
 
-
-    .aboutleft{
+    .aboutleft {
         width: 45.182%;
-       
     }
 
-    .aboutright{
-        margin-right:0;
-      }
-      
-      .img{
-        width:350px;
-      }
-  }
+    .aboutright {
+        margin-right: 0;
+    }
 
-
-  @media(max-width:390px){
-.about{
-    padding: 10rem 0rem;
-    flex-direction: column;
-
+    .img {
+        width: 350px;
+    }
 }
-   .aboutleft{
-    width:90%;
-   }
 
-  }
+@media (max-width: 390px) {
+    .about {
+        padding: 10rem 0rem;
+        flex-direction: column;
+    }
+
+    .aboutleft {
+        width: 90%;
+    }
+
+    .aboutleft h1 {
+        font-size: 48px;
+        line-height: 72px;
+        padding-right: 12.78px;
+    }
+
+    .about button {
+        width: 100%; 
+        padding: 1rem 0.5rem; 
+        font-size: 1rem; 
+        margin: 1rem 0; 
+    }
+
+    .about button:hover {
+        background-color: var(--hover-color); 
+}
+}
